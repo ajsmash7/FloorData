@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		318210692266828100A67F21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318210682266828100A67F21 /* AppDelegate.swift */; };
-		3182106B2266828100A67F21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3182106A2266828100A67F21 /* ViewController.swift */; };
+		3182106B2266828100A67F21 /* FloorTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3182106A2266828100A67F21 /* FloorTableViewController.swift */; };
 		3182106E2266828100A67F21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3182106C2266828100A67F21 /* Main.storyboard */; };
 		318210712266828100A67F21 /* Floor_Data.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3182106F2266828100A67F21 /* Floor_Data.xcdatamodeld */; };
 		318210732266828100A67F21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 318210722266828100A67F21 /* Assets.xcassets */; };
@@ -37,7 +37,7 @@
 /* Begin PBXFileReference section */
 		318210652266828100A67F21 /* Floor Data.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Floor Data.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		318210682266828100A67F21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3182106A2266828100A67F21 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3182106A2266828100A67F21 /* FloorTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloorTableViewController.swift; sourceTree = "<group>"; };
 		3182106D2266828100A67F21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		318210702266828100A67F21 /* Floor_Data.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Floor_Data.xcdatamodel; sourceTree = "<group>"; };
 		318210722266828100A67F21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -100,7 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				318210682266828100A67F21 /* AppDelegate.swift */,
-				3182106A2266828100A67F21 /* ViewController.swift */,
+				3182106A2266828100A67F21 /* FloorTableViewController.swift */,
 				3182106C2266828100A67F21 /* Main.storyboard */,
 				318210722266828100A67F21 /* Assets.xcassets */,
 				318210742266828100A67F21 /* LaunchScreen.storyboard */,
@@ -262,7 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3182106B2266828100A67F21 /* ViewController.swift in Sources */,
+				3182106B2266828100A67F21 /* FloorTableViewController.swift in Sources */,
 				318210692266828100A67F21 /* AppDelegate.swift in Sources */,
 				318210712266828100A67F21 /* Floor_Data.xcdatamodeld in Sources */,
 			);
